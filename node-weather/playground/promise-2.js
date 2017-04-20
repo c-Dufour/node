@@ -30,4 +30,6 @@ request(
 geocodeAddress('153 avenue de bretagne').then((res)=>{
     console.log('latitude'+res.lat);
     console.log('latitude'+res.long);
+},(err)=>{
+    console.log(err);
 });
